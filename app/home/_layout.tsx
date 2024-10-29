@@ -8,11 +8,8 @@ import type { BottomTabBarProps } from '@react-navigation/bottom-tabs';
 import { BottomNavigation, Icon, Portal, Text, useTheme } from 'react-native-paper';
 import { CommonActions } from '@react-navigation/native';
 import { withAuth } from '@u/hocs/withAuth';
-import { TabScreen } from 'react-native-paper-tabs';
 import Header from '@c/Header';
 import { Icons } from '@u/constants/Icons';
-import { Drawer } from 'expo-router/drawer';
-import { DrawerToggleButton } from '@react-navigation/drawer';
 
 const TabLayout = () => {
   const theme = useTheme();

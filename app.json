@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "habits",
-    "slug": "habits",
+    "name": "measured",
+    "slug": "measured",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
@@ -14,14 +14,14 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.aricdama.habits"
+      "bundleIdentifier": "com.aricdama.measured"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.aricdama.habits",
+      "package": "com.aricdama.measured",
       "googleServicesFile": "./google-services.json"
     },
     "web": {

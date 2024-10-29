@@ -3,22 +3,45 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@firebase/auth": ["./node_modules/@firebase/auth/dist/index.rn.d.ts"],
-      
-      "@c/*": ["./src/components/*"],
-      "@components/*": ["./src/components/*"],
-      "@s/*": ["./src/store/*"],
-      "@store/*": ["./src/store/*"],
-      "@t/*": ["./src/types/*"],
-      "@type/*": ["./src/types/*"],
-      "@u/*": ["./src/utils/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@a/*": ["./src/assets/*"],
-      "@assets/*": ["./src/assets/*"],
-      "@/*": ["./src/*"],      
+      "@firebase/auth": [
+        "./node_modules/@firebase/auth/dist/index.rn.d.ts"
+      ],
+      "@c/*": [
+        "./src/components/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@s/*": [
+        "./src/store/*"
+      ],
+      "@store/*": [
+        "./src/store/*"
+      ],
+      "@t/*": [
+        "./src/types/*"
+      ],
+      "@type/*": [
+        "./src/types/*"
+      ],
+      "@u/*": [
+        "./src/utils/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@a/*": [
+        "./src/assets/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ]
     },
     "verbatimModuleSyntax": true,
-    "isolatedModules": true,
+    "isolatedModules": true
   },
   "include": [
     "**/*.ts",
@@ -27,4 +50,3 @@
     "expo-env.d.ts"
   ]
 }
-
